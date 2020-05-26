@@ -55,7 +55,7 @@ MonoBehaviour:
     \     <children>\r\n        <elem>\r\n          <ActionNode id=\"22\" />\r\n        </elem>\r\n
     \       <elem>\r\n          <ActionNode id=\"23\" />\r\n        </elem>\r\n      </children>\r\n
     \     <inputParams />\r\n      <outputParams />\r\n      <localParams />\r\n    </SequenceNode>\r\n
-    \   <ConditionEvalNode id=\"45\" policy=\"WAIT_UNTIL_FALSE_AND_FAIL\" name=\"AlwaysTrue\">\r\n
+    \   <ConditionEvalNode id=\"45\" policy=\"WAIT_UNTIL_TRUE_AND_COMPLETE\" name=\"AlwaysTrue\">\r\n
     \     <inputParams />\r\n      <outputParams />\r\n      <localParams />\r\n    </ConditionEvalNode>\r\n
     \   <SequenceNode id=\"44\">\r\n      <children>\r\n        <elem>\r\n          <ActionNode
     id=\"46\" />\r\n        </elem>\r\n        <elem>\r\n          <SubbehaviorNode
@@ -63,7 +63,7 @@ MonoBehaviour:
     \     <outputParams />\r\n      <localParams />\r\n    </SequenceNode>\r\n    <ActionNode
     id=\"32\" action=\"MyActions/SetEnemyFollowing\">\r\n      <inputParams>\r\n        <inputValues>\r\n
     \         <entry name=\"isFollow\" type=\"System.Boolean\" isBlackboard=\"False\"
-    value=\"True\" />\r\n        </inputValues>\r\n      </inputParams>\r\n      <outputParams
+    value=\"False\" />\r\n        </inputValues>\r\n      </inputParams>\r\n      <outputParams
     />\r\n      <localParams />\r\n    </ActionNode>\r\n    <SubbehaviorNode id=\"25\">\r\n
     \     <_guid>33914d9c10135ea4e807f84dddc148e4</_guid>\r\n      <inputParams>\r\n
     \       <inputValues>\r\n          <entry name=\"wanderArea\" type=\"UnityEngine.GameObject\"
